@@ -2,18 +2,22 @@ $(".container").hide();
 
 $(document).ready(() => {
     
-    let mainUrl = "http://www.omdbapi.com/?apikey=647b7461";
+    let mainUrl = "https://www.omdbapi.com/?apikey=647b7461";
 
     // Elements
 
     let $srchBtn = $(".btn-search");
     let $titleOfMovie = $("#titleOfMovie");
 
+    // Function for getting API
+
     $titleOfMovie.keydown(function(event) {
         if (event.keyCode == 13) {
             event.preventDefault();
         }
     });
+
+    // EventListener
 
     $srchBtn.on('click', () => {
 
