@@ -2,6 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .title-of-movie {
+    margin-top: 1.5rem !important;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+  .genre-of-movie {
+    margin-top: 1rem;
+  }
+}
+
 body {
   background-color: #21211f;
 }

@@ -60,9 +60,6 @@ $(document).ready(() => {
           let str = data["Poster"];
           let n = str.search("300");
           str = setCharAt(str, n, "10");
-          console.log(str);
-
-          console.log(n);
 
           function setCharAt(str, index, chr) {
             if (index > str.length - 1) return str;
